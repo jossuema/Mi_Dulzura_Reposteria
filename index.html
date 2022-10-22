@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>Mi Dulzura Reposteria</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" width="200px">
+        <h1>Pasteleria mi dulzura Reposteria</h1>
+    </header>
+    
+    <div class="informacion">
+        <h2>Sabores</h2>
+        <p>Chocolate $4<br>Vainilla $3<br>Fresa $5</p>
+        <h2>Adornos</h2>
+        <p>Chispas de Chocolate $2<br>Gomitas $2<br>Nutella $5<br>Durazno $3<br>Dulces de Chocolate $7</p>
+    </div>
+
+    <form>
+        <h2>Realiza el pedido de tu pastel</h2>
+
+        <fieldset class="sabores-field">
+            <legend>Sabor:</legend>
+            <label class="sabores"><input type="checkbox">Chocolate</label>
+            <label class="sabores"><input type="checkbox">Vainilla</label>
+            <label class="sabores"><input type="checkbox">Fresa</label>
+        </fieldset>
+
+        <fieldset class="adornos-field">
+            <legend>Adornos:</legend>
+            <label class="adornos"><input type="checkbox">Chispas de Chocolate</label>
+            <label class="adornos"><input type="checkbox">Gomitas</label>
+            <label class="adornos"><input type="checkbox">Nutella</label>
+            <label class="adornos"><input type="checkbox">Durazno</label>
+            <label class="adornos"><input type="checkbox">Dulces de Chocolate</label>
+        </fieldset>
+
+        <label for="nombreapellido">Nombre:</label>
+        <input type="text" id="nombreapellido" class="input" required>
+
+        <label for="correoelectronico">Correo Electronico:</label>
+        <input type="email" id="correoelectronico" class="input" required placeholder="email@dominio.com">
+
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" class="input" required placeholder="+593 0979389612">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea cols="70" rows="10" id="mensaje" class="input" required></textarea>
+    </form>
+    
+    
+</body>
+</html>
