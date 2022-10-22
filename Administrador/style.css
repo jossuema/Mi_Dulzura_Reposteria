@@ -1,0 +1,18 @@
+*{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+header{
+    width: 30%;
+    margin: 0 auto;
+}
+
+img, h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section{
+    width: 40%;
+    margin: 0 auto;
+}
