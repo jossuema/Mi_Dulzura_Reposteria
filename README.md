@@ -20,3 +20,14 @@
 
 ![Logo](logo.png)
 
+## Informacion
+
+### Repositorio
+Repositorio individual: https://github.com/JosueMalla/Mi_Dulzura_Reposteria
+Repositorio Launch x: https://github.com/JosueMalla/MisionFrontEnd/tree/main/02%20-%20HTML/actividad
+
+### Deploy
+Pagina Usuario: https://josuemalla.github.io/Mi_Dulzura_Reposteria/
+Pagina Administrador: https://josuemalla.github.io/Mi_Dulzura_Reposteria/Administrador/admin.html
+
+By: Jossueth
