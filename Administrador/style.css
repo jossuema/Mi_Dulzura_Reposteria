@@ -16,3 +16,21 @@ section{
     width: 40%;
     margin: 0 auto;
 }
+
+.div-pastel1{
+    width: 200px;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+
+.imagen1{
+    margin: 0 22%;
+}
+
+.pastel1{
+    background-color: #7c7c7c;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+}
